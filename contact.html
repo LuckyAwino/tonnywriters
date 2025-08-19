@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - TonnyWriters</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo"><i class="fas fa-pen-fancy"></i> TonnyWriters</a>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Hero Section -->
+    <section class="hero" style="background: linear-gradient(135deg, rgba(6, 18, 70, 0.9), rgba(7, 4, 58, 0.9)), url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Get in Touch with Tonny Writers</h1>
+                <p>Whether you need academic support, technical assistance, or project collaboration, we’re just a message away.
+</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact TonnyWriters</h2>
+                <p>Reach out to us through any of these channels or fill out the form below.</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Let's Talk About Your Project</h3>
+                    <p>Whether you have a question about our services, need a quote, or want to discuss a potential project, our team is ready to help.</p>
+                    <ul class="contact-details">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>00100 Nairobi, Kenya</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>witerstonny@gmail.com</p>
+                                <p>support@tonnywriters.com</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+2547 0539 9405</p>
+                                <p>Mon-Fri: 8am - 5pm </p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <h4>WhatsApp</h4>
+                                <p>+2547 0539 9405</p>
+                                <p>24/7 support</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name *</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email *</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input type="text" id="subject" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Needed</label>
+                            <select id="service" class="form-control">
+                                <option value="">Select a service</option>
+                                <option value="academic">Academic Writing</option>
+                                <option value="content">Content Writing</option>
+                                <option value="editing">Editing & Proofreading</option>
+                                <option value="business">Business Writing</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message *</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="section" style="padding-top: 0;">
+        <div class="container">
+            <div class="map-container" style="height: 400px; background-color: #eee; border-radius: 10px; overflow: hidden;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.277147092833!2d36.7952299810974!3d-1.2863396837888607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1172d143b1bf%3A0x7a772a2a1e76c76d!2sNairobi!5e0!3m2!1sen!2ske!4v1724061365415!5m2!1sen!2ske" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>TonnyWriters</h3>
+                    <p>Professional writing services tailored to meet your specific needs and exceed your expectations.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Academic Writing</a></li>
+                        <li><a href="services.html">Content Writing</a></li>
+                        <li><a href="services.html">Editing & Proofreading</a></li>
+                        <li><a href="services.html">Business Writing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter for the latest updates and writing tips.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email" class="form-control">
+                        <button type="submit" class="submit-btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; TonnyWriters. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
