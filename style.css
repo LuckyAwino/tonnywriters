@@ -115,7 +115,7 @@ nav {
 }
 
 .mobile-menu-btn {
-    display: none;
+    display: none; /* Hidden by default on larger screens */
     background: none;
     border: none;
     font-size: 24px;
@@ -643,15 +643,15 @@ footer {
 
 @media (max-width: 768px) {
     .mobile-menu-btn {
-        display: block;
+        display: block; /* Show hamburger button on small screens */
     }
     
     .nav-links {
         position: fixed;
-        top: 80px;
-        left: -100%;
+        top: 80px; /* Adjust based on header height */
+        left: -100%; /* Hidden off-screen */
         width: 100%;
-        height: calc(100vh - 80px);
+        height: calc(100vh - 80px); /* Full height minus header */
         background-color: white;
         flex-direction: column;
         align-items: center;
@@ -661,7 +661,7 @@ footer {
     }
     
     .nav-links.active {
-        left: 0;
+        left: 0; /* Slide in from the left */
     }
     
     .nav-links li {
